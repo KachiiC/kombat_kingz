@@ -1,0 +1,15 @@
+// @import url("../../styles/styles.scss");
+
+@import "../../styles/styles.scss";
+
+.page {
+  &-container {
+    padding: 64px;
+  }
+
+  @media screen and (max-width: $tablet-breakpoint) {
+    &-container {
+      padding: 64px 8px;
+    }
+  }
+}

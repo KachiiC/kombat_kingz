@@ -1,0 +1,39 @@
+.podcast {
+  &-page {
+    padding: 48px 24px;
+    
+    h1 {
+      text-align: center;
+    }
+  }
+
+  &-entries {
+    padding: 24px 0px;
+
+    &-single {
+      display: flex;
+      border: 1px solid grey;
+      border-radius: 4px;
+      align-items: center;
+      margin-bottom: 24px;
+      // background: grey;
+    }
+
+    &-thumbnail {
+      margin: 24px;
+      min-width: 240px;
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+
+    &-text {
+      padding: 24px;
+      &-title {
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

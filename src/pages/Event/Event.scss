@@ -1,0 +1,120 @@
+.event {
+  &-page {
+    padding: 48px 24px;
+
+    h1 {
+      text-align: center;
+    }
+  }
+
+  &-fight {
+    &-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &-single {
+      border: 1px solid white;
+      padding: 8px 8px 16px;
+      margin-bottom: 24px;
+      border-radius: 8px;
+      width: 100%;
+      max-width: 640px;
+
+      &-select {
+        margin: 16px;
+
+        &-input {
+          margin-top: 8px;
+          padding: 16px;
+          background: white;
+          color: black;
+          width: 100%;
+          border-radius: 4px;
+        }
+
+        &-label {
+          color: white;
+        }
+      }
+
+      &-slide {
+        margin: 16px;
+        padding: 8px 0px;
+
+        &-input {
+          color: white;
+          width: 100%;
+          cursor: pointer;
+        }
+
+        &-label {
+          margin-bottom: 8px;
+        }
+
+        &-mark {
+          &-container {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+      }
+
+      &-division {
+        text-align: center;
+        font-size: 24px;
+        margin: 8px;
+        font-weight: 700;
+      }
+
+      &-expand {
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        cursor: pointer;
+        background: #424242;
+        margin: 8px 16px 0px;
+        border-radius: 8px;
+        user-select: none;
+
+        &-break {
+          height: 2px;
+          background: white;
+          margin: 0px 24px;
+        }
+
+        &-title {
+          margin-right: 16px;
+        }
+      }
+    }
+  }
+
+  &-fight {
+    &-stats {
+      padding: 16px 8px;
+      background: #424242;
+      margin: -8px 16px 8px;
+      border-radius: 0px 0px 8px 8px;
+
+      &-single {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-column {
+          min-width: 180px;
+          padding: 8px;
+          text-align: center;
+        }
+
+        &-label {
+          font-weight: 600;
+          width: 120px;
+          padding: 0px 8px;
+        }
+      }
+    }
+  }
+}
