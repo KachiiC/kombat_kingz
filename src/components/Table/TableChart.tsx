@@ -31,14 +31,12 @@ export const TableChart = ({ row }: ITableChart) => {
 
   return (
     <div className="site-table-body-row-expanded-chart">
-      <ResponsiveContainer width="100%" height="80%">
-        <PieChart
-          colors={["#00b800", "#509bff", "#ffc929"]}
-          series={dataSeries}
-          width={320}
-          height={200}
-        />
-      </ResponsiveContainer>
+      <PieChart
+        colors={["#00b800", "#509bff", "#ffc929"]}
+        series={dataSeries}
+        width={400}
+        height={200}
+      />
     </div>
   );
 };
