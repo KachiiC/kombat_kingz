@@ -1,5 +1,4 @@
 import { PieChart } from "@mui/x-charts/PieChart";
-import { ResponsiveContainer } from "recharts";
 
 interface ITableChart {
   row: any;
